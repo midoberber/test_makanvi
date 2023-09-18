@@ -29978,7 +29978,7 @@ q=$.az
 q.toString
 o=$.bc().d.i(0,0)
 o.toString
-q.a_M(new A.XV(o,new A.AZ(B.a_D,B.T6,B.vT,!0,"lang",!0,null),new A.mo(o,t.bT)))
+q.a_M(new A.XV(o,new A.AZ(B.a_D,B.T6,B.vT,!0,"assets/lang",!0,null),new A.mo(o,t.bT)))
 q.Ly()
 return A.D(null,r)}})
 return A.E($async$z8,r)},
