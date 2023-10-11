@@ -8,6 +8,7 @@
     "select": "Select",
     "set_Location": "Set Location",
     "update": "Update",
+    "similar_places": "Similar Places",
     "error_occured": "Error Occurred",
     "error_filed_required": "This Field is required",
     "error_name": "Only characters are allowed in full name",
@@ -241,7 +242,8 @@
     "delete_account": "Delete Account",
     "show_more": "Show More",
     "show_less": "Show Less",
-    "click_to_view_virtual_tour": "click to view virtual tour",
+    "click_to_view_virtual_tour": "click to start virtual tour",
     "hey_Welcome": "Hey! Welcome",
-    "makanvi_is_decicated_to": "Makanvi is dedicated to bridging the physical and virtual worlds. Join us today and step into the future of real estate!"
+    "makanvi_is_decicated_to": "Makanvi is dedicated to bridging the physical and virtual worlds. Join us today and step into the future of real estate!",
+    "map_view": "Map View"
 }

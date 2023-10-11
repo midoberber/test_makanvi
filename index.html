@@ -17,33 +17,62 @@
   -->
     <!-- <base href="/"> -->
     <base href="https://midoberber.github.io/test_makanvi/">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="A new Flutter project.">
+    <meta name="description" content="Your Innovative Real Estate Partner.">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="makanvi_web">
+    <meta name="apple-mobile-web-app-title" content="Makanvi">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Google Integration -->
+
+    <meta name="google-signin-client_id"
+        content="324895378902-6gk78cquoecgqffkfdths94i8oq7mufh.apps.googleusercontent.com" />
+
+    <!-- Apple Integration -->
+
+    <script type="text/javascript"
+        src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <title>makanvi_web</title>
+    <title>Makanvi</title>
     <link rel="manifest" href="manifest.json">
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
         // The value below is injected by flutter build, do not touch.
-        const serviceWorkerVersion = "1585956765";
+        const serviceWorkerVersion = "835836513";
     </script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB38_1XJa_Yy92TyTfUCpuRqSCc9hWTpBQ"></script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB38_1XJa_Yy92TyTfUCpuRqSCc9hWTpBQ"></script>
-    <script src="flutter.js" defer></script>
+    <script src="./flutter.js" defer></script>
 </head>
 
 <body>
+
+    <!-- <img src="img/logo.png" class="center" style="    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)" /> -->
+    <div class="center">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
 
     <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
@@ -107,6 +136,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
