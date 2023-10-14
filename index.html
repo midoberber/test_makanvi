@@ -45,7 +45,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
         // The value below is injected by flutter build, do not touch.
-        const serviceWorkerVersion = "3608924857";
+        const serviceWorkerVersion = "745797159";
     </script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
@@ -110,7 +110,7 @@
             // Service workers are supported. Use them.
             window.addEventListener('load', function () {
                 // ADD THIS LINE
-                navigator.serviceWorker.register('/firebase-messaging-sw.js');
+                navigator.serviceWorker.register('firebase-messaging-sw.js');
 
                 // Wait for registration to finish before dropping the <script> tag.
                 // Otherwise, the browser will load the script multiple times,
